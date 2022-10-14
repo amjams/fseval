@@ -74,7 +74,7 @@ results of any experiment can be reproduced given the configuration
 file. This can be very convenient to researchers in order to prove the
 integrity of their benchmarks.
 
-Up to our knowledge, there is only one package that aims to accomplish the same goal (`featsel`, [@reis_featsel_2017]). Compared to this tool, `fseval` is easier to install and use, has better documentation, and is better maintained. `fseval` also has more extensive functionalities compared to `featsel`: with support for easily configurable and reproducible pipeline configuration using either YAML or Python and distributed-processing support. Due to the lack of functionality and the fact that the refered-to library is out-of-date, we consider there to be a gap in the field, which our library aims to fill.
+Up to our knowledge, there is only one package that aims to accomplish a similar goal (`featsel`, [@reis_featsel_2017]). Compared to this tool, `fseval` is easier to install and use, has better documentation, and is better maintained. `fseval` also has more extensive functionalities compared to `featsel`: with support for easily configurable and reproducible pipeline configuration using either YAML or Python and distributed-processing support. Due to the lack of functionality and the fact that the refered-to library is out-of-date, we consider there to be a gap in the field, which our library aims to fill.
 
 - The **target audiences** are researchers in the domains of Feature Selection and Feature Ranking, as well as businesses that are looking for the best FR- or FS method to use for their use case.
 - The **scope** of `fseval` is limited to
